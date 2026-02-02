@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdventureCo - Discover the World</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">&#9865;</span> AdventureCo
+            </a>
+            <ul class="nav-links">
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="tours.html">Tours</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="reviews.html">Reviews</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="nav-auth">
+                <a href="#" class="btn-login">Sign In</a>
+                <a href="#" class="btn-primary">Book Now</a>
+            </div>
+            <div class="mobile-menu">
+                <span>&#9776;</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Adventure Awaits Every Corner</h1>
+            <p>Discover extraordinary destinations and create memories that last a lifetime with our expertly crafted travel experiences</p>
+            <div class="hero-search">
+                <div class="search-box">
+                    <span class="search-icon">&#128205;</span>
+                    <input type="text" placeholder="Where do you want to go?">
+                </div>
+                <div class="search-box">
+                    <span class="search-icon">&#128197;</span>
+                    <input type="text" placeholder="When?" onfocus="(this.type='date')">
+                </div>
+                <div class="search-box">
+                    <span class="search-icon">&#128101;</span>
+                    <select>
+                        <option>Travelers</option>
+                        <option>1 Traveler</option>
+                        <option>2 Travelers</option>
+                        <option>3 Travelers</option>
+                        <option>4+ Travelers</option>
+                    </select>
+                </div>
+                <button class="btn-search">
+                    <span>&#128269;</span> Search
+                </button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <span class="stat-number">150+</span>
+                    <span class="stat-label">Destinations</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">50K+</span>
+                    <span class="stat-label">Happy Travelers</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-number">12K+</span>
+                    <span class="stat-label">Tours Completed</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Popular Destinations Preview -->
+    <section class="destinations">
+        <div class="container">
+            <div class="section-header">
+                <h2>Popular Destinations</h2>
+                <p>Explore our most sought-after travel hotspots</p>
+            </div>
+            <div class="destinations-grid">
+                <div class="destination-card large">
+                    <img src="https://images.unsplash.com/photo-1504214208698-ea1916a2195a?w=800" alt="Kyoto, Japan">
+                    <div class="destination-overlay">
+                        <h3>Kyoto, Japan</h3>
+                        <p>&#128205; East Asia</p>
+                        <span class="price">From $1,299</span>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600" alt="Paris, France">
+                    <div class="destination-overlay">
+                        <h3>Paris, France</h3>
+                        <p>&#128205; Western Europe</p>
+                        <span class="price">From $899</span>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=600" alt="Bali, Indonesia">
+                    <div class="destination-overlay">
+                        <h3>Bali, Indonesia</h3>
+                        <p>&#128205; Southeast Asia</p>
+                        <span class="price">From $749</span>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=600" alt="Venice, Italy">
+                    <div class="destination-overlay">
+                        <h3>Venice, Italy</h3>
+                        <p>&#128205; Southern Europe</p>
+                        <span class="price">From $999</span>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=600" alt="San Francisco, USA">
+                    <div class="destination-overlay">
+                        <h3>San Francisco, USA</h3>
+                        <p>&#128205; North America</p>
+                        <span class="price">From $1,199</span>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="destinations.html" class="btn-secondary">View All Destinations</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Tours Preview -->
+    <section class="tours">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Tours</h2>
+                <p>Handpicked travel experiences curated just for you</p>
+            </div>
+            <div class="tours-grid">
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=600" alt="Safari Adventure">
+                        <span class="tour-badge">Best Seller</span>
+                        <button class="wishlist-btn">&#9825;</button>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-meta">
+                            <span>&#9200; 7 Days</span>
+                            <span>&#128101; Max 12</span>
+                        </div>
+                        <h3>African Safari Expedition</h3>
+                        <p>Experience the wild beauty of Africa's finest wildlife reserves</p>
+                        <div class="tour-footer">
+                            <div class="rating">
+                                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                                <span>(128 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span class="from">From</span>
+                                <span class="amount">$2,499</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1488085061387-422e29b40080?w=600" alt="Island Hopping">
+                        <button class="wishlist-btn">&#9825;</button>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-meta">
+                            <span>&#9200; 10 Days</span>
+                            <span>&#128101; Max 8</span>
+                        </div>
+                        <h3>Greek Islands Paradise</h3>
+                        <p>Explore the stunning Cyclades and create unforgettable memories</p>
+                        <div class="tour-footer">
+                            <div class="rating">
+                                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                                <span>(94 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span class="from">From</span>
+                                <span class="amount">$1,899</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tour-card">
+                    <div class="tour-image">
+                        <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=600" alt="Mountain Trek">
+                        <span class="tour-badge new">New</span>
+                        <button class="wishlist-btn">&#9825;</button>
+                    </div>
+                    <div class="tour-content">
+                        <div class="tour-meta">
+                            <span>&#9200; 5 Days</span>
+                            <span>&#128101; Max 10</span>
+                        </div>
+                        <h3>Swiss Alps Adventure</h3>
+                        <p>Trek through breathtaking mountain scenery and charming villages</p>
+                        <div class="tour-footer">
+                            <div class="rating">
+                                <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</span>
+                                <span>(67 reviews)</span>
+                            </div>
+                            <div class="price">
+                                <span class="from">From</span>
+                                <span class="amount">$1,599</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="tours.html" class="btn-secondary">Explore All Tours</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Travel With AdventureCo?</h2>
+                <p>We're committed to making your travel dreams a reality</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1504214208698-ea1916a2195a?w=400" alt="Safe Travel">
+                    </div>
+                    <div class="feature-card-content">
+                        <span class="feature-icon">&#128737;</span>
+                        <h3>Safe & Secure</h3>
+                        <p>Your safety is our priority with 24/7 support and comprehensive travel insurance</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=400" alt="Local Experts">
+                    </div>
+                    <div class="feature-card-content">
+                        <span class="feature-icon">&#127758;</span>
+                        <h3>Local Experts</h3>
+                        <p>Our experienced local guides ensure authentic and enriching experiences</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400" alt="Eco-Friendly">
+                    </div>
+                    <div class="feature-card-content">
+                        <span class="feature-icon">&#127793;</span>
+                        <h3>Eco-Friendly</h3>
+                        <p>Sustainable tourism practices that protect our planet for future generations</p>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-image">
+                        <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=400" alt="Best Price">
+                    </div>
+                    <div class="feature-card-content">
+                        <span class="feature-icon">&#128176;</span>
+                        <h3>Best Price Guarantee</h3>
+                        <p>Competitive pricing with no hidden fees and free cancellation options</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Preview -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>What Our Travelers Say</h2>
+                <p>Real stories from real adventurers</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="quote-icon">&#8220;</div>
+                    <p>AdventureCo made our honeymoon absolutely magical! Every detail was perfectly planned, and the local experiences were unforgettable.</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah M.">
+                        <div class="author-info">
+                            <h4>Sarah Mitchell</h4>
+                            <span>&#128205; New York, USA</span>
+                            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">&#8220;</div>
+                    <p>The African Safari exceeded all expectations! Our guide was incredibly knowledgeable, and we saw the Big Five in their natural habitat.</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="James R.">
+                        <div class="author-info">
+                            <h4>James Rodriguez</h4>
+                            <span>&#128205; Madrid, Spain</span>
+                            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="quote-icon">&#8220;</div>
+                    <p>I've traveled with many companies, but AdventureCo stands out. Their commitment to sustainable tourism is inspiring, and the trips are incredibly well-organized.</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Emily K.">
+                        <div class="author-info">
+                            <h4>Emily Kim</h4>
+                            <span>&#128205; Sydney, Australia</span>
+                            <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="reviews.html" class="btn-secondary">Read All Reviews</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Get Exclusive Travel Deals</h2>
+                <p>Subscribe to our newsletter and receive up to 20% off your first booking!</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit" class="btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">&#9865;</span> AdventureCo
+                    </a>
+                    <p>Your trusted partner in extraordinary travel experiences since 2015.</p>
+                    <div class="social-links">
+                        <a href="#">f</a>
+                        <a href="#">&#128247;</a>
+                        <a href="#">&#128038;</a>
+                        <a href="#">&#127909;</a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Safety Info</a></li>
+                        <li><a href="#">Cancellation Options</a></li>
+                        <li><a href="#">Travel Update</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li>&#128231; hello@adventureCo.com</li>
+                        <li>&#128222; +1 (800) 123-4567</li>
+                        <li>&#128205; 123 Adventure Lane, San Francisco, CA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AdventureCo. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
