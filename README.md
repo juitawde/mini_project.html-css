@@ -6,7 +6,7 @@
 
 ## 🚀 Project Overview
 
-AdventureCo is a responsive travel website educational project designed using HTML and CSS to demonstrate front-end web development skills. The website showcases travel destinations, curated tours, imagery, and testimonials for demonstration purposes only. It does not represent a real travel service and does not offer actual bookings. The project is inspired by professional travel platforms such as Intrepid Travel, which served only as a design reference for learning and practice.
+AdventureCo is a **responsive travel website educational project** designed using **HTML and CSS** to demonstrate front-end web development skills. The website showcases travel destinations, curated tours, imagery, and testimonials **for demonstration purposes only**. It does not represent a real travel service and does not offer actual bookings. The project is inspired by professional travel platforms such as **Intrepid Travel**, which served only as a reference for learning and practice.
 
 ---
 
