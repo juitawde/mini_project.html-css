@@ -31,19 +31,19 @@ The purpose of AdventureCo is to demonstrate a clean, modern front-end travel UI
 ## ✨ Key Features
 
 ### 🌍 Featured Destinations
-Showcases popular global destinations like Kyoto, Paris, Bali, Venice, and San Francisco — each with price and location details. :contentReference[oaicite:1]{index=1}
+Showcases popular global destinations like Kyoto, Paris, Bali, Venice, and San Francisco — each with price and location details. 
 
 ### 🧭 Curated Tours
-Lists featured tour experiences (e.g., African Safari, Greek Island Paradise, Swiss Alps Adventure) with ratings and trip duration. :contentReference[oaicite:2]{index=2}
+Lists featured tour experiences (e.g., African Safari, Greek Island Paradise, Swiss Alps Adventure) with ratings and trip duration. 
 
 ### 🛡 Why Choose Us
-Highlights key value propositions such as safety & security, experienced local guides, eco-friendly practices, and best price guarantees. :contentReference[oaicite:3]{index=3}
+Highlights key value propositions such as safety & security, experienced local guides, eco-friendly practices, and best price guarantees. 
 
 ### 🗣 Traveler Testimonials
-Display real-style reviews and star ratings from past travelers to build trust and engagement. :contentReference[oaicite:4]{index=4}
+Display real-style reviews and star ratings from past travelers to build trust and engagement. 
 
 ### 📨 Newsletter Subscription
-Encourages users to subscribe for exclusive travel deals and discounts. :contentReference[oaicite:5]{index=5}
+Encourages users to subscribe for exclusive travel deals and discounts. 
 
 ---
 
